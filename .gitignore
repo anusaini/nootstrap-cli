@@ -57,3 +57,12 @@ typings/
 # dotenv environment variables file
 .env
 
+# OS specific
+.DS_Store
+*.*~
+.*~
+tmp/
+*.tmp
+
+# npm specific
+package-lock.json

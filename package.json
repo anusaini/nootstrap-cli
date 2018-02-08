@@ -1,10 +1,10 @@
 {
   "name": "nootstrap-cli",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "CLI tool for getting a quick nootstrap dir - node module",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jasmine"
   },
   "repository": {
     "type": "git",
@@ -12,9 +12,25 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/anusaini/nootstrap-cli/issues"
   },
-  "homepage": "https://github.com/anusaini/nootstrap-cli#readme"
+  "homepage": "https://github.com/anusaini/nootstrap-cli#readme",
+  "dependencies": {
+    "co": "^4.6.0",
+    "co-prompt": "^1.0.0",
+    "nootstrap": "^1.0.0"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "eslint": "^4.17.0",
+    "eslint-config-standard": "^11.0.0-beta.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-node": "^6.0.0",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "jasmine": "^3.0.0",
+    "sinon": "^4.2.2"
+  }
 }
